@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./images/bg-pattern-top.svg'), url('./images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 45vw bottom 43vh, left 45vw top 43vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+.container{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.cardProfile {
+    width: 350px;
+    overflow: hidden;
+    margin: auto;
+    border-radius: 15px;
+    background-color: #fff;
+}
+
+.content img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: solid 3px #fff;
+    margin-top: -52px;
+    margin-bottom: 20px;
+}
+
+.content h2 {
+    color: hsl(229, 23%, 23%);
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.content h2 > span {
+    font-weight: 500;
+    color:  hsl(227, 10%, 46%);
+    font-size: 15px;
+}
+
+.content p {
+    font-size: 13px;
+    font-weight: 400;
+    color:  hsl(227, 10%, 46%);
+}
+
+.country{
+    font-weight: 500;
+    color:  hsl(227, 10%, 46%);
+    font-size: 13px;
+    margin:10px auto 20px auto;
+}
+
+
+ .footerCard{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 50px;
+     border-top: solid 1px hsl(0, 0%, 59%);
+ }
+
+ .footerCard p.num {
+     color: hsl(229, 23%, 23%);
+     font-size: 18px;
+     font-weight: 700;
+ }
+
+ .attribution { 
+     position: absolute;
+     bottom: 1px;
+     font-size: 11px; 
+     text-align: center; 
+ }
+ .attribution a { 
+     color: hsl(0, 0%, 100%); 
+ }
